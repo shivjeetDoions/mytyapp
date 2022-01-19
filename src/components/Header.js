@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
       <div class="m-0 p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg ">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -15,7 +15,9 @@ export default function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="">
+                <i class="bi bi-list text-dark"></i>
+              </span>
             </button>
             <span class="w-0 hd_w_one"></span>
             <a class="navbar-brand" href="#">
@@ -51,20 +53,30 @@ export default function Header() {
             >
               <ul class="navbar-nav  m-2 mb-lg-0 text-end">
                 <li class="nav-item m-2">
-                  <button
+                  <a
+                    href="https://myty.in/login"
                     class="btn btn-md-lg btn-warning me-3 px-4 fw-bold"
+                    role="button"
                     type="Login"
                   >
                     Login
-                  </button>
+                  </a>
                 </li>
                 <li class="nav-item m-2">
-                  <button
+                  {/* <button
                     class="btn btn-md-lg btn-outline-warning me-3 px-4 text-dark fw-bold "
                     type="submit"
                   >
                     Signup
-                  </button>
+                  </button> */}
+                  <a
+                    href="https://www.myty.in/signup"
+                    class="btn btn-md-lg btn-outline-warning me-3 px-4 text-dark fw-bold"
+                    role="button"
+                    type="submit"
+                  >
+                    Signup
+                  </a>
                 </li>
               </ul>
             </div>
@@ -85,17 +97,28 @@ export default function Header() {
                     <a
                       class="nav-link mx-sm-0 mx-md-5"
                       aria-current="page"
-                      href="#"
+                      href="https://myty.in/explore"
                     >
                       Explore
                     </a>
-                    <a class="nav-link mx-sm-0 mx-md-5" href="#">
+                    <a
+                      class="nav-link mx-sm-0 mx-md-5"
+                      href="https://myty.in/pricing"
+                    >
                       Pricing
                     </a>
-                    <a class="nav-link mx-sm-0 mx-md-5" href="#">
+                    <a
+                      class="nav-link mx-sm-0 mx-md-5"
+                      href="https://myty-blog.myty.in"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Blog
                     </a>
-                    <a class="nav-link mx-sm-0 mx-md-5" href="#">
+                    <a
+                      class="nav-link mx-sm-0 mx-md-5"
+                      href="https://myty.in/faqs"
+                    >
                       FAQs
                     </a>
                   </div>

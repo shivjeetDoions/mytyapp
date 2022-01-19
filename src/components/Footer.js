@@ -13,14 +13,20 @@ function Footer() {
             </div>
             <div class="col-md-6">
               <div class="row h5 my-5">
-                <div class="col-md-4 text-end">
-                  <p>Help & Support</p>
+                <div class="col-md-4 text-end fotlink">
+                  <a href="https://myty.in/help-support">
+                    <p>Help & Support</p>
+                  </a>
                 </div>
-                <div class="col-md-4 text-end">
-                  <p>Privacy Policy</p>
+                <div class="col-md-4 text-end fotlink">
+                  <a href="https://myty.in/privacy-policy">
+                    <p>Privacy Policy</p>
+                  </a>
                 </div>
-                <div class="col-md-4 text-end">
-                  <p>Privacy Policy</p>
+                <div class="col-md-4 text-end fotlink">
+                  <a href="https://myty.in/terms-conditions">
+                    <p>Terms & Conditions</p>
+                  </a>
                   <i class="bi bi-instagram text-danger me-1"></i>
                   <i class="bi bi-youtube text-danger  me-1 "></i>
                   <i class="bi bi-facebook text-primary  me-1"></i>

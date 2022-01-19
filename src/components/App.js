@@ -4,6 +4,7 @@ import Header from "./Header";
 import SectionOne from "./Homepage/SectionOne";
 import EmPower from "./Homepage/EmPower";
 import OnePlatform from "./Homepage/OnePlatform";
+import AnimatedBenefitsShowCase from "./AnimatedBenefitsShowcase";
 import BuildYourWebsite from "./Homepage/BuildYourWebsite";
 import Resources from "./Homepage/Resources";
 import MakeYourBusiness from "./Homepage/MakeYourBusiness";
@@ -15,7 +16,8 @@ function App() {
       <Header />
       <SectionOne />
       <EmPower />
-      <OnePlatform />
+      {/* <OnePlatform /> */}
+      <AnimatedBenefitsShowCase />
       <BuildYourWebsite />
       <Resources />
       <MakeYourBusiness />

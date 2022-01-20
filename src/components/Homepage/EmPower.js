@@ -9,7 +9,7 @@ function EmPower() {
     <div>
       <div className="container">
         {/* <!-- search bar start --> */}
-        <div class="input-group mb-3 mt-5 p-0 m-0">
+        {/* <div class="input-group mb-3 mt-5 p-0 m-0">
           <input
             type="text"
             class="form-control"
@@ -25,7 +25,7 @@ function EmPower() {
               Search
             </span>
           </div>
-        </div>
+        </div> */}
         {/* <!-- search bar end --> */}
         <h1 class="text-center mt-5 headline">
           Empower your digital presence with myty

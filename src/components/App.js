@@ -8,6 +8,7 @@ import AnimatedBenefitsShowCase from "./AnimatedBenefitsShowcase";
 import BuildYourWebsite from "./Homepage/BuildYourWebsite";
 import Resources from "./Homepage/Resources";
 import MakeYourBusiness from "./Homepage/MakeYourBusiness";
+import Search from "./Api/Search";
 import Footer from "./Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <div>
       <Header />
       <SectionOne />
+      <Search />
       <EmPower />
       {/* <OnePlatform /> */}
       <AnimatedBenefitsShowCase />

@@ -136,6 +136,7 @@ function SectionOne() {
                 <div class="mobile_view_sound text-center"></div>
               </div>
               <iframe
+                title="mobile view iframe"
                 src={iframeUrl}
                 height="510px"
                 width="260px"

@@ -20,8 +20,8 @@ export default function Header() {
               </span>
             </button>
             <span class="w-0 hd_w_one"></span>
-            <a class="navbar-brand" href="#">
-              <img src={Logo} class=" logo_img" />
+            <a class="navbar-brand" href="/">
+              <img src={Logo} class=" logo_img" alt="" />
             </a>
             <span class="w-0 hd_w_two"></span>
             <button

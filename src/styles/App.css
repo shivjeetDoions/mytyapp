@@ -5,6 +5,7 @@
 
 .Explore_btn {
   border: 2px solid #ffc700;
+  border-radius: 5px;
   background-color: #fff;
   /* text-decoration: underline;
   text-decoration-color: #0000ff; */

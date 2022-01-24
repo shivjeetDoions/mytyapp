@@ -17,17 +17,17 @@ function Footer() {
               <div class="row h5 my-5">
                 <div class="col-md-4 text-end fotlink">
                   <a href="https://myty.in/help-support">
-                    <p className="headline">Help & Support</p>
+                    <p>Help & Support</p>
                   </a>
                 </div>
                 <div class="col-md-4 text-end fotlink">
                   <a href="https://myty.in/privacy-policy">
-                    <p className="headline">Privacy Policy</p>
+                    <p>Privacy Policy</p>
                   </a>
                 </div>
                 <div class="col-md-4 text-end fotlink">
                   <a href="https://myty.in/terms-conditions">
-                    <p className="headline">Terms & Conditions</p>
+                    <p>Terms & Conditions</p>
                   </a>
                   <div class="d-flex justify-content-end align-items-end p-0 m-0 ">
                     <a href="https://instagram.com/myty.in?utm_medium=copy_link">

@@ -1,35 +1,10 @@
 import React from "react";
+import Bepresent from "../../image/doionsedu.jpg";
+import BeConnected from "../../image/Tourism.jpg";
 
 function Search() {
-  // const [data, setData] = useState([]);
-  // useEffect(() => {
-  //   fetch("https://jsonplaceholder.typicode.com/todos").then((result) => {
-  //     result.json().then((resp) => {
-  //       //  console.warn("result",resp)
-  //       setData(resp);
-  //     });
-  //   });
-  // }, []);
-  // console.warn(data);
   return (
     <div>
-      {/* <h1>Get API Call</h1>
-      <table>
-        <tr>
-          <td>userId</td>
-          <td>ID</td>
-          <td>Title</td>
-          <td>completed</td>
-        </tr>
-        {data.map((item) => (
-          <tr>
-            <td>{item.userId}</td>
-            <td>{item.id}</td>
-            <td>{item.title}</td>
-            <td>{JSON.stringify(item.completed)}</td>
-          </tr>
-        ))}
-      </table> */}
       <div className="container">
         <div class="input-group mb-3 mt-5 p-0 m-0">
           <input
@@ -57,6 +32,36 @@ function Search() {
             </button>
           </div>
         </div>
+        {/* move image */}
+        {/* <div>
+          <img class="marquee SerImg" src={Bepresent} alt="view" />
+          <img src={BeConnected} alt="view" className="SerImg marquee" />
+          <img class="marquee SerImg" src={Bepresent} alt="view" />
+          <img src={BeConnected} alt="view" className="SerImg marquee" />
+          <div>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control border-5"
+                placeholder="Enter your domain name"
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon2"
+              />
+              <div class="input-group-append">
+                <span
+                  class="input-group-text bg-danger text-white px-5"
+                  id="basic-addon2"
+                >
+                  Search
+                </span>
+              </div>
+            </div>
+            <img src={BeConnected} alt="view" className="SerImg marquee" />
+            <img class="marquee SerImg" src={Bepresent} alt="view" />
+            <img src={BeConnected} alt="view" className="SerImg marquee" />
+          </div>
+        </div> */}
+        {/* move image */}
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function Footer() {
     <>
       {/* <!-- footer start --> */}
       <div>
-        <div className="container">
+        <div className="container" id="footer">
           <div class="row my-5 d-flex  align-items-center justify-content-center ">
             <div class="col-md-6">
               <img src={logo} class="img-fluid" alt="logo" />

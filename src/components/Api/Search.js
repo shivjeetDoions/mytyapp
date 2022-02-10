@@ -79,6 +79,9 @@ function Search() {
           <span className="fw-bold">{fullName}</span>
           {avl}
         </div>
+        <div class="text-center py-5 headline">
+          <h1>One platform for all your business requirements</h1>
+        </div>
       </div>
     </>
   );

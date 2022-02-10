@@ -17,7 +17,7 @@ function Homepage() {
       <SectionOne />
       <EmPower />
       <Search />
-      <OnePlatform />
+      {/* <OnePlatform /> */}
       <AnimatedSection />
       <AnimatedBenefitsShowcase />
       <BuildYourWebsite />

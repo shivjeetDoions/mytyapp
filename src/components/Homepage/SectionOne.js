@@ -130,7 +130,7 @@ function SectionOne() {
             </div>
           </div>
 
-          <div class="col-md-4 m-0 p-0">
+          <div class="col-md-4 m-0 p-0 d-flex justify-content-center">
             <div class="mobile_view">
               <div class="mobile_view_header">
                 <div class="mobile_view_sound text-center"></div>

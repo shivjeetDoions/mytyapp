@@ -1,101 +1,87 @@
 import React, { useState } from "react";
-import JSONDATA from "./MOCK_DATA";
+
 function Search() {
-  const [searchTerm, setsearchTerm] = useState("");
-  const [Success, setSuccess] = useState("");
-  const [Link, setLink] = useState("");
+  const [name, setName] = useState("");
+  const [fullName, setFullName] = useState();
+  const [avl, setAvl] = useState();
+  // const [unavl, setUnavl] = useState();
+
+  const inputEvent = (event) => {
+    // console.log(event.target.value);
+    setName(event.target.value);
+  };
+
+  const onSubmit = () => {
+    setFullName(name);
+    // console.log(name);
+
+    console.log(
+      "string concatenation",
+      "https://mytym.in/api/domain/findby/" + name
+    );
+
+    fetch("https://mytym.in/api/domain/findby/" + name)
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.result === null) {
+          setAvl(
+            <div>
+              <p className="fw-bold">
+                .myty.in is <span className="text-success">avilable</span>
+              </p>
+              <div className="d-grid gap-2 d-flex justify-content-between align-items-center">
+                <p>Register it now before anyone else.</p>
+                <button type="button" class="Explore_btn fw-bold px-5 py-1">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          );
+        } else {
+          setAvl(
+            <div>
+              <p className="fw-bold">
+                .myty.in is <span className="text-danger">unavilable</span>
+              </p>
+            </div>
+          );
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   return (
-    <div className="container">
-      <div class="input-group mb-3 mt-5 p-0 m-0">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Enter your domain name"
-          aria-label="Recipient's username"
-          aria-describedby="basic-addon2"
-          onChange={(event) => {
-            setsearchTerm(event.target.value);
-            setSuccess(true);
-            setLink(event.target.value);
-          }}
-        />
-        <span
-          class="input-group-text px-5 bg-danger text-white"
-          id="basic-addon2"
-        >
-          Search
-        </span>
-      </div>
-      {Success ? (
-        <div class="d-flex align-content-center border">
-          <div class="p-2  flex-grow-1">
-            {JSONDATA.filter((val) => {
-              if (searchTerm === "") {
-                setSuccess(false);
-              } else if (
-                val.first_name.toLowerCase().includes(searchTerm.toLowerCase())
-              ) {
-                return val;
-              }
-            }).map((val, key) => {
-              return (
-                <div key={key}>
-                  <p>{val.first_name}</p>
-                </div>
-              );
-            })}
-          </div>
-          <div class="p-2 ">
-            <button
-              className="btn Explore_btn text-end fw-bold text-end"
-              onClick={() => {
-                <Link target="_blank" href={searchTerm}></Link>;
-              }}
-            >
-              Select
-            </button>
-          </div>
+    <>
+      <div className="container">
+        <div class="input-group mb-3 mt-5 p-0 m-0">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter your domain name"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+            onChange={inputEvent}
+            value={name}
+          />
+          <span
+            class="input-group-text px-5 bg-danger text-white"
+            id="basic-addon2"
+            onClick={onSubmit}
+          >
+            Search
+          </span>
+          {/* <button onClick={onSubmit}>click me</button> */}
         </div>
-      ) : (
-        <></>
-      )}
-    </div>
+        <div>
+          <span className="fw-bold">{fullName}</span>
+          {avl}
+        </div>
+      </div>
+    </>
   );
 }
-
-// function Search() {
-//   return (
-//     <div>
-//       <div className="container">
-//         <div class="input-group mb-3 mt-5 p-0 m-0">
-//           <input
-//             type="text"
-//             class="form-control"
-//             placeholder="Enter your domain name"
-//             aria-label="Recipient's username"
-//             aria-describedby="basic-addon2"
-//           />
-//           <div class="input-group-append">
-//             <span
-//               class="input-group-text bg-danger text-white px-5"
-//               id="basic-addon2"
-//             >
-//               Search
-//             </span>
-//           </div>
-//         </div>
-
-//         <div class="d-flex align-content-center border">
-//           <div class="p-2  flex-grow-1">yourname1.myty.in</div>
-//           <div class="p-2 ">
-//             <button className="btn Explore_btn text-end fw-bold text-end">
-//               Select
-//             </button>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 export default Search;

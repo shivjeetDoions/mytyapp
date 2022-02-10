@@ -17,7 +17,7 @@ function SectionOne() {
     <div>
       <div className="container">
         <div class="row pt-sm-0 mt-sm-0 mt-md-5 pt-md-5">
-          <div class="col-md-4 fs-4 text-center text-md-start">
+          <div class="col-md-4 fs-4 text-center text-md-start pt-sm-0 pt-md-5">
             <p class="fw-bold ">
               An uninterrupted scrolling experience of everything you are
               looking for!

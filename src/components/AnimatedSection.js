@@ -15,10 +15,13 @@ export default function AnimatedSection({ leftComponet, rightComponent }) {
   return (
     <div>
       {/* <pre>{JSON.stringify({ show, inView })}</pre> */}
-      <div className="row" ref={ref}>
+      <div
+        className="row  d-flex justify-content-center align-items-center fs-4"
+        ref={ref}
+      >
         <div
           className={
-            "col-6 col-md-6 d-flex justify-content-center align-items-center animate-on-scroll" +
+            "col-12 col-md-6 d-flex p-0 m-0  justify-content-center align-items-center animate-on-scroll" +
             (show ? " fade-from-left " : "  ")
           }
         >
@@ -26,7 +29,7 @@ export default function AnimatedSection({ leftComponet, rightComponent }) {
         </div>
         <div
           className={
-            "col-6 col-md-6 d-flex justify-content-center align-items-center animate-on-scroll" +
+            "col-12 col-md-6 d-flex p-0 m-0 justify-content-center align-items-center animate-on-scroll" +
             (show ? " fade-from-right " : "  ")
           }
         >

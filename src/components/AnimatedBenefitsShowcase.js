@@ -16,8 +16,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start">
-                <h3>Be Present</h3>
+              <div className="text-start fontStyle">
+                <h2>Be Present</h2>
                 <p>
                   Make a space for yourself on the <br /> web easily and create
                   a unique
@@ -31,7 +31,11 @@ export default function AnimatedBenefitsShowcase() {
           rightComponent={
             <>
               {/* <HomeArt1Icon className="img-fluid" /> */}
-              <img src={HomeArt1Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt1Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
         />
@@ -40,12 +44,16 @@ export default function AnimatedBenefitsShowcase() {
           leftComponet={
             <>
               {/* <HomeArt2Icon className="img-fluid" /> */}
-              <img src={HomeArt2Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt2Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
           rightComponent={
             <>
-              <div className="text-end">
+              <div className="text-end fontStyle">
                 <h3>Be Searchable</h3>
                 <p>
                   Leave the best impression when
@@ -60,8 +68,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start">
-                <h3>Be Discoverable</h3>
+              <div className="text-start fontStyle">
+                <h2>Be Discoverable</h2>
                 <p>
                   Get discovered easily by the <br />
                   right audience and engage with <br />
@@ -74,7 +82,11 @@ export default function AnimatedBenefitsShowcase() {
           rightComponent={
             <>
               {/* <HomeArt3Icon className="img-fluid" /> */}
-              <img src={HomeArt3Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt3Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
         />
@@ -83,13 +95,17 @@ export default function AnimatedBenefitsShowcase() {
           leftComponet={
             <>
               {/* <HomeArt4Icon className="img-fluid" /> */}
-              <img src={HomeArt4Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt4Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
           rightComponent={
             <>
-              <div className="text-end">
-                <h3>Be connected</h3>
+              <div className="text-end fontStyle">
+                <h2>Be connected</h2>
                 <p>
                   myty gives you access to a <br />
                   strong community where you <br />
@@ -105,8 +121,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start">
-                <h3>Get Social</h3>
+              <div className="text-start fontStyle">
+                <h2>Get Social</h2>
                 <p>
                   Get discovered easily by the
                   <br /> right audience and engage with
@@ -119,7 +135,11 @@ export default function AnimatedBenefitsShowcase() {
           rightComponent={
             <>
               {/* <HomeArt5Icon className="img-fluid" /> */}
-              <img src={HomeArt5Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt5Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
         />
@@ -128,13 +148,17 @@ export default function AnimatedBenefitsShowcase() {
           leftComponet={
             <>
               {/* <HomeArt6Icon className="img-fluid" /> */}
-              <img src={HomeArt6Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt6Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
           rightComponent={
             <>
-              <div className="text-end">
-                <h3>Build trust</h3>
+              <div className="text-end fontStyle">
+                <h2>Build trust</h2>
                 <p>
                   myty turns your content into
                   <br /> an asset for the future and
@@ -149,8 +173,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start">
-                <h3>Create manage & grow</h3>
+              <div className="text-start fontStyle">
+                <h2>Create manage & grow</h2>
                 <p>
                   myty gives you a platform to <br />
                   bring out the unique style and <br />
@@ -164,7 +188,11 @@ export default function AnimatedBenefitsShowcase() {
           rightComponent={
             <>
               {/* <HomeArt7Icon className="img-fluid" /> */}
-              <img src={HomeArt7Icon} className="img-fluid" alt="Logo" />
+              <img
+                src={HomeArt7Icon}
+                className="img-fluid img_size_ani"
+                alt="Logo"
+              />
             </>
           }
         />

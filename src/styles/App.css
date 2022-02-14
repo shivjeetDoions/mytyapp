@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 
 .Explore_btn {
@@ -39,16 +40,20 @@
 .mobile_view_sound {
   border: 5px solid #0a0a0a;
   width: 113px;
-  position: relative;
-  top: 21px;
-  right: -98px;
+  position: absolute;
+  top: 8px;
+  right: 96px;
   border-radius: 5px;
+  z-index: 1;
 }
-.iframeStyle {
+.sound_parent {
+  position: relative;
+}
+/* .iframeStyle {
   border: 11px solid #0a0a0a;
   border-radius: 36px;
   margin: 4px 3px 3px 27px;
-}
+} */
 /* .iframeStyle::-webkit-scrollbar {
   width: 0px;
   height: 0px;
@@ -155,3 +160,72 @@
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(112, 112, 112, 0.6);
 }
+/* frame page style start */
+.newFrame {
+  height: 560px;
+  width: 305px;
+  overflow: scroll;
+  border: 12px solid black;
+  border-radius: 30px;
+}
+.newFrame::-webkit-scrollbar {
+  display: none;
+}
+.header_style_Bling {
+  background-color: rgb(255, 167, 60);
+  color: #000;
+}
+.header_style_Flora {
+  background-color: rgb(229, 255, 209);
+  color: #08a62e;
+}
+.header_style_Lotus {
+  background-color: rgb(255, 191, 123);
+  color: #666666;
+}
+.header_style_Mita {
+  background-color: rgb(247, 226, 207);
+  color: #000;
+}
+.header_style_Mithaiwala {
+  background-color: rgb(255, 189, 74);
+  color: #5e1ea9;
+}
+.header_style_Pheonix {
+  background-color: rgb(10, 42, 121);
+  color: #f4d0a1;
+}
+.header_style_Purple {
+  background-color: rgb(208, 200, 255);
+  color: #f15bb5;
+}
+.header_style_TheGame {
+  background-color: rgb(51, 26, 18);
+  color: #f4d0a1;
+}
+.header_style_Uraban {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+/* frame page style end */
+/* animi image style start */
+/* .img_size_ani {
+  height: 400px;
+} */
+@media (min-width: 320px) {
+  .img_size_ani {
+    height: 200px;
+  }
+  .fontStyle {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .img_size_ani {
+    height: 350px;
+  }
+  .fontStyle {
+    font-size: 28px;
+  }
+}
+/* animi image style end */

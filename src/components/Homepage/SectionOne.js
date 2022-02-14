@@ -8,15 +8,23 @@ import sec_img_six from "../../image/PheonixRealty.png";
 import sec_img_seven from "../../image/Lotusyoga.png";
 import sec_img_eight from "../../image/PinkBeauty.png";
 import sec_img_nine from "../../image/Restaurant.png";
+
+import FloraPlant from "../FramePage/FloraPlant";
+import LotusYoga from "../FramePage/LotusYoga";
+import Bling from "../FramePage/Bling";
+import Mithaiwala from "../FramePage/Mithaiwala";
+import PheonixRealty from "../FramePage/PheonixRealty";
+import Purple from "../FramePage/Purple";
+import TheGameStudio from "../FramePage/TheGameStudio";
+import Mita from "../FramePage/Mita";
+import UrabanCafe from "../FramePage/UrabanCafe";
 function SectionOne() {
-  const [iframeUrl, setIframeUrl] = useState(
-    "https://samplefloraplants.myty.in"
-  );
+  const [iframeCom, setIframeCom] = useState(<FloraPlant />);
 
   return (
     <div>
       <div className="container">
-        <div class="row pt-sm-0 mt-sm-0 mt-md-5 pt-md-5">
+        <div class="row  pt-sm-0 mt-sm-0 mt-md-5 pt-md-5">
           <div class="col-md-4 fs-4 text-center text-md-start pt-sm-0 pt-md-5">
             <p class="fw-bold ">
               An uninterrupted scrolling experience of everything you are
@@ -37,7 +45,7 @@ function SectionOne() {
                   class="img-fluid rounded float-left zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("https://samplefloraplants.myty.in");
+                    setIframeCom(<FloraPlant />);
                   }}
                 />
               </div>
@@ -48,7 +56,7 @@ function SectionOne() {
                   alt="..."
                   onClick={() => {
                     console.log("Click");
-                    setIframeUrl("https://sampleglamstudio.myty.in");
+                    setIframeCom(<TheGameStudio />);
                   }}
                 />
               </div>
@@ -59,7 +67,7 @@ function SectionOne() {
                   alt="..."
                   onClick={() => {
                     console.log("Click");
-                    setIframeUrl("https://urbancafesample.myty.in");
+                    setIframeCom(<UrabanCafe />);
                   }}
                 />
               </div>
@@ -71,7 +79,7 @@ function SectionOne() {
                   class="img-fluid rounded float-left zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("https://blingjewelssample.myty.in");
+                    setIframeCom(<Bling />);
                   }}
                 />
               </div>
@@ -81,7 +89,7 @@ function SectionOne() {
                   class="img-fluid rounded zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("https://mitajaipur.myty.in");
+                    setIframeCom(<Mita />);
                   }}
                 />
               </div>
@@ -91,7 +99,7 @@ function SectionOne() {
                   class="img-fluid rounded float-right zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("https://phoenixrealtysample.myty.in");
+                    setIframeCom(<PheonixRealty />);
                   }}
                 />
               </div>
@@ -103,7 +111,7 @@ function SectionOne() {
                   class="img-fluid rounded float-left zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("https://lotusyogasample.myty.in");
+                    setIframeCom(<LotusYoga />);
                   }}
                 />
               </div>
@@ -113,7 +121,7 @@ function SectionOne() {
                   class="img-fluid rounded zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("http://purpleclothingsample.myty.in");
+                    setIframeCom(<Purple />);
                   }}
                 />
               </div>
@@ -123,7 +131,7 @@ function SectionOne() {
                   class="img-fluid rounded float-right zoom"
                   alt="..."
                   onClick={() => {
-                    setIframeUrl("https://samplemithaiwala.myty.in");
+                    setIframeCom(<Mithaiwala />);
                   }}
                 />
               </div>
@@ -131,17 +139,9 @@ function SectionOne() {
           </div>
 
           <div class="col-md-4 m-0 p-0 d-flex justify-content-center">
-            <div class="mobile_view">
-              <div class="mobile_view_header">
-                <div class="mobile_view_sound text-center"></div>
-              </div>
-              <iframe
-                title="mobile view iframe"
-                src={iframeUrl}
-                height="510px"
-                width="260px"
-                className="iframeStyle"
-              ></iframe>
+            <div className="sound_parent">
+              <div class="mobile_view_sound text-center"></div>
+              <div class="newFrame">{iframeCom}</div>
             </div>
           </div>
         </div>

@@ -10,6 +10,7 @@ import Search from "./Api/Search";
 import AnimatedSection from "./AnimatedSection";
 import AnimatedBenefitsShowcase from "./AnimatedBenefitsShowcase";
 import Header from "./Header";
+
 function Homepage() {
   return (
     <div>

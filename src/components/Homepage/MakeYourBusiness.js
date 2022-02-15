@@ -12,7 +12,14 @@ function MakeYourBusiness() {
               Make your business Global. Create your brand identity with myty.
             </h1>
             <div class="text-left my-5">
-              <button type="button" class="Explore_btn fw-bold px-5 py-1">
+              <button
+                type="button"
+                class="Explore_btn fw-bold px-5 py-1"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "https://myty.in/signup";
+                }}
+              >
                 Get Started
               </button>
             </div>

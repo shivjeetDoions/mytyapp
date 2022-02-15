@@ -21,7 +21,7 @@ export default function AnimatedSection({ leftComponet, rightComponent }) {
       >
         <div
           className={
-            "col-12 col-md-6 d-flex p-0 my-5  justify-content-center align-items-center animate-on-scroll" +
+            "col-12 col-md-6 d-flex p-0 my-0 my-md-5  justify-content-center align-items-center animate-on-scroll" +
             (show ? " fade-from-left " : "  ")
           }
         >
@@ -29,7 +29,7 @@ export default function AnimatedSection({ leftComponet, rightComponent }) {
         </div>
         <div
           className={
-            "col-12 col-md-6 d-flex p-0 my-5 justify-content-center align-items-center animate-on-scroll" +
+            "col-12 col-md-6 d-flex p-0 my-0 my-md-5 justify-content-center align-items-center animate-on-scroll" +
             (show ? " fade-from-right " : "  ")
           }
         >

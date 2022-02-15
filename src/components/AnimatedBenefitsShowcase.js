@@ -198,7 +198,14 @@ export default function AnimatedBenefitsShowcase() {
         />
         {/* <!-- GetStarted btn --> */}
         <div class="text-center my-5">
-          <button type="button" class="Explore_btn fw-bold px-5 py-1">
+          <button
+            type="button"
+            class="Explore_btn fw-bold px-5 py-1"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://myty.in/signup";
+            }}
+          >
             Get Started
           </button>
         </div>

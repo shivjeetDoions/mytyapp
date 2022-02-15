@@ -12,7 +12,7 @@ function Resources() {
       <div className="container">
         {/* <!-- headline start --> */}
         <div class="text-center py-5 headline">
-          <h1>Resources to help you grow</h1>
+          <h1 className="fw-bold">Resources to help you grow</h1>
         </div>
         {/* <!-- ----headline end---- --> */}
         {/* <!-- section 6 start --> */}

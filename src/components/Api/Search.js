@@ -80,7 +80,9 @@ function Search() {
           {avl}
         </div>
         <div class="text-center py-5 headline">
-          <h1>One platform for all your business requirements</h1>
+          <h1 className="fw-bold">
+            One platform for all your business requirements
+          </h1>
         </div>
       </div>
     </>

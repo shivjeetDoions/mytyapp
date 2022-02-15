@@ -8,7 +8,7 @@ function MakeYourBusiness() {
         {/* <!-- section 7 start --> */}
         <div class="row my-5 py-5">
           <div class="col-md-6">
-            <h1>
+            <h1 className="fw-bold">
               Make your business Global. Create your brand identity with myty.
             </h1>
             <div class="text-left my-5">

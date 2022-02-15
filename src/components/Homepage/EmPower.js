@@ -27,7 +27,7 @@ function EmPower() {
           </div>
         </div> */}
         {/* <!-- search bar end --> */}
-        <h1 class="text-center mt-5 headline">
+        <h1 class="text-center mt-5 headline fw-bold">
           Empower your digital presence with myty
         </h1>
         {/* <!-- section 2 start --> */}

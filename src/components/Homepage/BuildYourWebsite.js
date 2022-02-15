@@ -9,8 +9,8 @@ function BuildYourWebsite() {
     <div>
       <div className="container">
         {/* <!-- headline start --> */}
-        <div class="text-center py-5 headline">
-          <h1>Build your website in simple steps</h1>
+        <div class="text-center py-5 headline ">
+          <h1 className="fw-bold">Build your website in simple steps</h1>
         </div>
         {/* <!-- ----headline end---- --> */}
         {/* <!-- section 5 start --> */}

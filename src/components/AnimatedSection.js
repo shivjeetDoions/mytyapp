@@ -13,15 +13,15 @@ export default function AnimatedSection({ leftComponet, rightComponent }) {
   }, [inView, show]);
 
   return (
-    <div>
+    <div className="container-fluid">
       {/* <pre>{JSON.stringify({ show, inView })}</pre> */}
       <div
-        className="row  d-flex justify-content-center align-items-center fs-4"
+        className="row d-flex justify-content-center align-items-center fs-4 m-0"
         ref={ref}
       >
         <div
           className={
-            "col-12 col-md-6 d-flex p-0 m-0  justify-content-center align-items-center animate-on-scroll" +
+            "col-12 col-md-6 d-flex p-0 my-5  justify-content-center align-items-center animate-on-scroll" +
             (show ? " fade-from-left " : "  ")
           }
         >
@@ -29,7 +29,7 @@ export default function AnimatedSection({ leftComponet, rightComponent }) {
         </div>
         <div
           className={
-            "col-12 col-md-6 d-flex p-0 m-0 justify-content-center align-items-center animate-on-scroll" +
+            "col-12 col-md-6 d-flex p-0 my-5 justify-content-center align-items-center animate-on-scroll" +
             (show ? " fade-from-right " : "  ")
           }
         >

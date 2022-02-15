@@ -32,28 +32,36 @@ function EmPower() {
         </h1>
         {/* <!-- section 2 start --> */}
         <div class="row my-5 py-5">
-          <div class="col-md-3">
+          <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgOne} alt="Responsive image" class="mb-4" />
-              <a href="#">www.name.myty.in</a>
+              <img src={ImgOne} alt="Responsive image" className="mb-2" />
+              <a href="#" className="d-block">
+                www.name.myty.in
+              </a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgTwo} alt="Responsive image" class="mb-4" />
-              <a href="#">www.name.myty.in</a>
+              <img src={ImgTwo} alt="Responsive image" className="mb-2" />
+              <a href="#" className="d-block">
+                www.name.myty.in
+              </a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgThree} alt="Responsive image" class="mb-4" />
-              <a href="#">www.name.myty.in</a>
+              <img src={ImgThree} alt="Responsive image" className="mb-2" />
+              <a href="#" className="d-block">
+                www.name.myty.in
+              </a>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgFour} alt="Responsive image" class="mb-4" />
-              <a href="#">www.name.myty.in</a>
+              <img src={ImgFour} alt="Responsive image" className="mb-2" />
+              <a href="#" className="d-block">
+                www.name.myty.in
+              </a>
             </div>
           </div>
         </div>

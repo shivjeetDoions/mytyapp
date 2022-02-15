@@ -11,13 +11,13 @@ import HomeArt7Icon from "../image/CreateManage.png";
 export default function AnimatedBenefitsShowcase() {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div></div>
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start fontStyle">
-                <h2>Be Present</h2>
+              <div className="text-start">
+                <h2 className="fw-bold">Be Present</h2>
                 <p>
                   Make a space for yourself on the <br /> web easily and create
                   a unique
@@ -53,8 +53,8 @@ export default function AnimatedBenefitsShowcase() {
           }
           rightComponent={
             <>
-              <div className="text-end fontStyle">
-                <h3>Be Searchable</h3>
+              <div className="text-end ">
+                <h3 className="fw-bold">Be Searchable</h3>
                 <p>
                   Leave the best impression when
                   <br /> your audience is searching for
@@ -68,8 +68,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start fontStyle">
-                <h2>Be Discoverable</h2>
+              <div className="text-start">
+                <h2 className="fw-bold">Be Discoverable</h2>
                 <p>
                   Get discovered easily by the <br />
                   right audience and engage with <br />
@@ -104,8 +104,8 @@ export default function AnimatedBenefitsShowcase() {
           }
           rightComponent={
             <>
-              <div className="text-end fontStyle">
-                <h2>Be connected</h2>
+              <div className="text-end ">
+                <h2 className="fw-bold">Be connected</h2>
                 <p>
                   myty gives you access to a <br />
                   strong community where you <br />
@@ -121,8 +121,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start fontStyle">
-                <h2>Get Social</h2>
+              <div className="text-start">
+                <h2 className="fw-bold">Get Social</h2>
                 <p>
                   Get discovered easily by the
                   <br /> right audience and engage with
@@ -157,8 +157,8 @@ export default function AnimatedBenefitsShowcase() {
           }
           rightComponent={
             <>
-              <div className="text-end fontStyle">
-                <h2>Build trust</h2>
+              <div className="text-end">
+                <h2 className="fw-bold">Build trust</h2>
                 <p>
                   myty turns your content into
                   <br /> an asset for the future and
@@ -173,8 +173,8 @@ export default function AnimatedBenefitsShowcase() {
         <AnimatedSection
           leftComponet={
             <>
-              <div className="text-start fontStyle">
-                <h2>Create manage & grow</h2>
+              <div className="text-start">
+                <h2 className="fw-bold">Create manage & grow</h2>
                 <p>
                   myty gives you a platform to <br />
                   bring out the unique style and <br />

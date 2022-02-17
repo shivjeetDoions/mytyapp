@@ -1,32 +1,13 @@
 import React from "react";
-import ImgOne from "../../image/MobileScreenOne.png";
-import ImgTwo from "../../image/MobileScreenTwo.png";
-import ImgThree from "../../image/MobileScreenThree.png";
-import ImgFour from "../../image/MobileScreenFour.png";
+import ImgOne from "../../image/mytylink1.png";
+import ImgTwo from "../../image/mytylink2.png";
+import ImgThree from "../../image/mytylink3.png";
+import ImgFour from "../../image/mytylink4.png";
 
 function EmPower() {
   return (
     <div>
       <div className="container">
-        {/* <!-- search bar start --> */}
-        {/* <div class="input-group mb-3 mt-5 p-0 m-0">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Enter your domain name"
-            aria-label="Recipient's username"
-            aria-describedby="basic-addon2"
-          />
-          <div class="input-group-append">
-            <span
-              class="input-group-text bg-danger text-white px-5"
-              id="basic-addon2"
-            >
-              Search
-            </span>
-          </div>
-        </div> */}
-        {/* <!-- search bar end --> */}
         <h1 class="text-center mt-5 headline fw-bold">
           Empower your digital presence with myty
         </h1>
@@ -34,33 +15,41 @@ function EmPower() {
         <div class="row my-5 py-5">
           <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgOne} alt="Responsive image" className="mb-2" />
-              <a href="#" className="d-block">
-                www.name.myty.in
+              <img src={ImgOne} alt="Responsive image" className="img-fluid " />
+              <a href="http://vibhavari.myty.in/" className="d-block">
+                vibhavari.myty.in
               </a>
             </div>
           </div>
           <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgTwo} alt="Responsive image" className="mb-2" />
-              <a href="#" className="d-block">
-                www.name.myty.in
+              <img src={ImgTwo} alt="Responsive image" className="img-fluid " />
+              <a href="http://sukruti.myty.in/" className="d-block">
+                sukruti.myty.in
               </a>
             </div>
           </div>
           <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgThree} alt="Responsive image" className="mb-2" />
-              <a href="#" className="d-block">
-                www.name.myty.in
+              <img
+                src={ImgThree}
+                alt="Responsive image"
+                className="img-fluid "
+              />
+              <a href="http://ruchita.myty.in/" className="d-block">
+                ruchita.myty.in
               </a>
             </div>
           </div>
           <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgFour} alt="Responsive image" className="mb-2" />
-              <a href="#" className="d-block">
-                www.name.myty.in
+              <img
+                src={ImgFour}
+                alt="Responsive image"
+                className="img-fluid "
+              />
+              <a href="http://shivaniraju.myty.in/" className="d-block">
+                shivaniraju.myty.in
               </a>
             </div>
           </div>

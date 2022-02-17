@@ -15,8 +15,8 @@ function EmPower() {
         <div class="row my-5 py-5">
           <div class="col-md-3 mb-5">
             <div class="text-center">
-              <img src={ImgOne} alt="Responsive image" className="img-fluid " />
-              <a href="http://vibhavari.myty.in/" className="d-block">
+              <img src={ImgOne} alt="Responsive image" className="img-fluid" />
+              <a href="http://vibhavari.myty.in/" className="d-block mt-3">
                 vibhavari.myty.in
               </a>
             </div>
@@ -24,7 +24,7 @@ function EmPower() {
           <div class="col-md-3 mb-5">
             <div class="text-center">
               <img src={ImgTwo} alt="Responsive image" className="img-fluid " />
-              <a href="http://sukruti.myty.in/" className="d-block">
+              <a href="http://sukruti.myty.in/" className="d-block  mt-3">
                 sukruti.myty.in
               </a>
             </div>
@@ -36,7 +36,7 @@ function EmPower() {
                 alt="Responsive image"
                 className="img-fluid "
               />
-              <a href="http://ruchita.myty.in/" className="d-block">
+              <a href="http://ruchita.myty.in/" className="d-block  mt-3">
                 ruchita.myty.in
               </a>
             </div>
@@ -48,7 +48,7 @@ function EmPower() {
                 alt="Responsive image"
                 className="img-fluid "
               />
-              <a href="http://shivaniraju.myty.in/" className="d-block">
+              <a href="http://shivaniraju.myty.in/" className="d-block  mt-3">
                 shivaniraju.myty.in
               </a>
             </div>
